@@ -4,7 +4,8 @@ It also listens to the changes and run docker-compose up on changes.
 
 Environment variables to configre:
 
-    * ```CONSUL_COMPOSE_PATH```: the key for the docker-compose file in the consul server
+    * ``CONSUL_COMPOSE_PATH``: the key for the docker-compose file in the consul server
+    * `` CONSUL_SERVER``: the host and port of the consul server
 
 Example run:
 
