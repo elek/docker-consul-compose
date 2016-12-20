@@ -11,6 +11,7 @@ function stop(){
 trap stop EXIT  
 trap reload SIGUSR1  
 
+docker-compose -f $DOCKER_FILE pull
 docker-compose -f $DOCKER_FILE up -d
 
 
